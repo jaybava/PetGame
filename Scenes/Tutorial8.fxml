@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="941.0" prefWidth="1644.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Backend.Tutorial8Controller">
+   <children>
+      <ImageView fitHeight="526.0" fitWidth="524.0" layoutX="933.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true" />
+      <Pane fx:id="minigameBackground" layoutX="934.0" layoutY="167.0" prefHeight="573.0" prefWidth="544.0">
+         <children>
+            <Pane fx:id="minihameHeader" layoutX="1.0" layoutY="-4.0" prefHeight="79.0" prefWidth="544.0">
+               <children>
+                  <Text layoutX="163.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MINIGAME">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Button fx:id="mathButton" layoutX="159.0" layoutY="125.0" mnemonicParsing="false" text="MATH">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="englishButton" layoutX="159.0" layoutY="259.0" mnemonicParsing="false" text="ENGLISH">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="geographyButton" layoutX="159.0" layoutY="407.0" mnemonicParsing="false" text="GEOGRAPHY">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <ImageView fx:id="petImage" fitHeight="552.0" fitWidth="523.0" layoutX="320.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true" />
+      <Pane fx:id="tutorialBox" layoutX="330.0" layoutY="782.0" prefHeight="110.0" prefWidth="1155.0">
+         <children>
+            <Button fx:id="next" layoutX="1053.0" layoutY="21.0" mnemonicParsing="false" onAction="#next" prefHeight="55.0" prefWidth="53.0" text="NEXT" />
+            <Text layoutX="13.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="THIS IS YOUR MINIGAME SCREEN WHERE YOU CAN ANSWER QUESTIONS AND EARN COINS" wrappingWidth="919.852294921875">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <Button fx:id="back" layoutX="953.0" layoutY="21.0" mnemonicParsing="false" onAction="#back" prefHeight="55.0" prefWidth="53.0" text="BACK" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

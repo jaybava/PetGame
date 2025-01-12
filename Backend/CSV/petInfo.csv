@@ -1,0 +1,4 @@
+petSaved,PIN,savedTime,hunger,happiness,coins,sleep,experience,health,level,questionDifficulty,blackGlasses,blackHat,blackBowtie,silverGlasses,silverHat,silverBowtie,goldGlasses,goldHat,goldBow,selectedItem
+TRUE,1234,,43,92,-15,34,30,100,51,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,goldGlasses
+TRUE,1234,,70,70,0,70,0,100,0,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,DEFAULT
+TRUE,1234,,19,81,50,38,50,100,2,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,blackBowtie

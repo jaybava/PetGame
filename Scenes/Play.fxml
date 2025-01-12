@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="941.0" prefWidth="1644.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Backend.PlayController">
+   <children>
+      <ImageView fx:id="petImage" fitHeight="741.0" fitWidth="739.0" layoutX="455.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

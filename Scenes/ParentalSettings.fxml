@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="941.0" prefWidth="1644.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Backend.ParentalSettingController">
+   <children>
+      <Pane fx:id="minigameBackground" layoutX="386.0" layoutY="132.0" prefHeight="722.0" prefWidth="769.0">
+         <children>
+            <Pane fx:id="minihameHeader" layoutX="1.0" layoutY="-4.0" prefHeight="79.0" prefWidth="769.0">
+               <children>
+                  <Text layoutX="224.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PARENTAL CONTROLS">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane fx:id="minigameBackground" layoutX="25.0" layoutY="170.0" prefHeight="352.0" prefWidth="355.0">
+               <children>
+                  <Pane fx:id="minihameHeader" layoutX="1.0" layoutY="-4.0" prefHeight="79.0" prefWidth="353.0">
+                     <children>
+                        <Text layoutX="100.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SUBJECTS">
+                           <font>
+                              <Font size="36.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <RadioButton fx:id="math" layoutX="82.0" layoutY="112.0" mnemonicParsing="false" text="MATH">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="english" layoutX="81.0" layoutY="181.0" mnemonicParsing="false" text="ENGLISH">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="geography" layoutX="80.0" layoutY="251.0" mnemonicParsing="false" text="GEOGRAPHY">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </RadioButton>
+               </children>
+            </Pane>
+            <Pane fx:id="minigameBackground" layoutX="405.0" layoutY="172.0" prefHeight="352.0" prefWidth="335.0">
+               <children>
+                  <Pane fx:id="minihameHeader" layoutX="1.0" layoutY="-4.0" prefHeight="79.0" prefWidth="331.0">
+                     <children>
+                        <Text layoutX="109.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GRADE">
+                           <font>
+                              <Font size="36.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <RadioButton fx:id="radio2" layoutX="110.0" layoutY="120.0" mnemonicParsing="false" text="2">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="radio4" layoutX="111.0" layoutY="195.0" mnemonicParsing="false" text="4">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="radio6" layoutX="112.0" layoutY="269.0" mnemonicParsing="false" text="6">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </RadioButton>
+               </children>
+            </Pane>
+            <Label fx:id="totalPlayTimeLabel" layoutX="90.0" layoutY="564.0" prefHeight="48.0" prefWidth="290.0" text="TOTALPLAYTIME" />
+            <Label fx:id="averagePlayTimeLabel" layoutX="90.0" layoutY="635.0" prefHeight="48.0" prefWidth="290.0" text="AVERAGEPLAYTIME" />
+            <Button fx:id="resetPlayTimeButton" layoutX="380.0" layoutY="612.0" mnemonicParsing="false" onAction="#resetPlaytimeStats" text="RESET TIME" />
+            <Button fx:id="limitations" layoutX="236.0" layoutY="84.0" mnemonicParsing="false" onAction="#limitations" prefHeight="51.0" prefWidth="369.0" text="LIMITATIONS">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Button fx:id="minigameButton" layoutX="68.0" layoutY="436.0" mnemonicParsing="false" onAction="#back" text="BACK">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Pane fx:id="minigameBackground" layoutX="1216.0" layoutY="135.0" prefHeight="724.0" prefWidth="375.0">
+         <children>
+            <Pane fx:id="minihameHeader" layoutX="1.0" layoutY="-4.0" prefHeight="79.0" prefWidth="373.0">
+               <children>
+                  <Text layoutX="137.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="REVIVE">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Button fx:id="toothlessRevive" layoutX="38.0" layoutY="176.0" mnemonicParsing="false" text="TOOTHLESS">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="shrekRevive" layoutX="40.0" layoutY="332.0" mnemonicParsing="false" text="SHREK">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="pussRevive" layoutX="39.0" layoutY="511.0" mnemonicParsing="false" text="PUSS N BOOTS">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

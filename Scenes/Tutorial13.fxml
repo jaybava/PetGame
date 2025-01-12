@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="941.0" prefWidth="1644.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Backend.Tutorial13Controller">
+   <children>
+      <Pane fx:id="tutorialBox" layoutX="145.0" layoutY="156.0" prefHeight="292.0" prefWidth="636.0">
+         <children>
+            <Button fx:id="next" layoutX="528.0" layoutY="192.0" mnemonicParsing="false" onAction="#next" prefHeight="29.0" prefWidth="152.0" text="NEXT" />
+            <Text layoutX="7.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="THESE BUTTONS ARE TO INTERACT WITH YOUR PET YOU WILL NEED TO MAKE SURE THAT IT IS EXERCISING, FED, RESTING, AND PLAYING IN ORDER FOR SUCCESS. IF THE PET'S HEALTH GETS LOW YOU CAN TAKE IT TO THE VET. YOU CAN USE KEYBOARD SHORTCUTS SUCH AS, V FOR VET, E FOR EXERCISE, F FOR FEED, S FOR SLEEP, P FOR PLAY,AND ESC FOR MAIN MENU TO EXECUTE THESE ACTIONS " wrappingWidth="558.2523193359375">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Button fx:id="back" layoutX="414.0" layoutY="191.0" mnemonicParsing="false" onAction="#back" prefHeight="29.0" prefWidth="152.0" text="BACK" />
+         </children>
+      </Pane>
+      <ImageView fx:id="petImage" fitHeight="396.0" fitWidth="528.0" layoutX="989.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true" />
+      <ButtonBar layoutX="750.0" layoutY="780.0" prefHeight="43.0" prefWidth="615.0">
+         <buttons>
+            <Button fx:id="vetbutton" layoutX="388.0" layoutY="10.0" mnemonicParsing="false" prefHeight="43.0" text="VET">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="exercisebutton" layoutX="252.0" layoutY="10.0" mnemonicParsing="false" prefHeight="43.0" text="EXERCISE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="feedbutton" mnemonicParsing="false" text="FEED">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="sleepbutton" mnemonicParsing="false" text="SLEEP">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="playbutton" mnemonicParsing="false" prefHeight="43.0" text="PLAY">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </buttons>
+      </ButtonBar>
+   </children>
+</AnchorPane>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="941.0" prefWidth="1644.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Backend.ParentalLimitationsController">
+   <children>
+      <Pane fx:id="minigameBackground" layoutX="516.0" layoutY="132.0" prefHeight="642.0" prefWidth="683.0">
+         <children>
+            <Pane fx:id="minihameHeader" layoutX="1.0" layoutY="-4.0" prefHeight="79.0" prefWidth="681.0">
+               <children>
+                  <Text layoutX="234.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LIMITATIONS">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <PasswordField fx:id="startTime" layoutX="202.0" layoutY="225.0" prefHeight="48.0" prefWidth="131.0" promptText="Enter Start TIme" />
+            <Button fx:id="parentalSubmit" layoutX="289.0" layoutY="292.0" mnemonicParsing="false" onAction="#handleSubmit" prefWidth="87.0" text="SUBMIT" />
+            <Label fx:id="feedbackLabel" alignment="CENTER" layoutX="146.0" layoutY="168.0" prefHeight="21.0" prefWidth="403.0" text="TIME OF DAY" textAlignment="CENTER">
+               <font>
+                  <Font size="24.0" />
+               </font></Label>
+            <PasswordField fx:id="endTime" layoutX="342.0" layoutY="225.0" prefHeight="48.0" prefWidth="131.0" promptText="Enter End TIme" />
+         </children>
+      </Pane>
+      <Button fx:id="minigameButton" layoutX="84.0" layoutY="576.0" mnemonicParsing="false" onAction="#back" text="BACK">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
